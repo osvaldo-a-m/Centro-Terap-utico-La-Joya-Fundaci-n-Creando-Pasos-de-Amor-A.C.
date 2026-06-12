@@ -8,7 +8,7 @@
    3. Copia la URL que te proporciona
    4. Reemplaza N8N_WEBHOOK_URL abajo
    ============================================================ */
-const N8N_WEBHOOK_URL = "https://TU-INSTANCIA-N8N.com/webhook/fundacion-contacto";
+const N8N_WEBHOOK_URL = "https://backyou-n8n.pf0hps.easypanel.host/webhook/887ed059-0fe6-4efd-a43b-2a8ccafe70d6";
 // Ejemplo: "https://mi-n8n.app.n8n.cloud/webhook/abc123-contacto-form"
 
 /* ============================================================
@@ -47,7 +47,7 @@ const navItems = document.querySelectorAll('.nav-link');
 
 const observerOptions = {
   root: null,
-  rootMargin: '-30% 0px -60% 0px',
+  rootMargin: '-40% 0px -50% 0px',
   threshold: 0
 };
 
