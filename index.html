@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro Terapéutico La Joya | Fundación Creando Pasos de Amor A.C.</title>
+  <meta name="description"
+    content="Fundación Creando Pasos de Amor A.C. – Centro Terapéutico La Joya. Ofrecemos terapia ecuestre para niños y familias, fomentando el desarrollo emocional, físico y social a través de la conexión con los caballos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#inicio" class="logo" aria-label="Inicio">
+        <img src="https://fundacioncreandopasosdeamor.org/imgs/Logo.png" alt="Logo Fundación Creando Pasos de Amor A.C."
+          class="logo-img" />
+      </a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link active" id="nav-inicio">Inicio</a>
+        <a href="#nosotros" class="nav-link" id="nav-nosotros">Nosotros</a>
+        <a href="#beneficios" class="nav-link" id="nav-beneficios">Beneficios</a>
+        <a href="#contacto" class="nav-link" id="nav-contacto">Contáctanos</a>
+        <a href="https://web.facebook.com/CentroTerapeuticoLaJoya" target="_blank" rel="noopener noreferrer"
+          class="nav-link facebook-link" id="nav-facebook" aria-label="Visítanos en Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+          </svg>
+          Facebook
+        </a>
+        <a href="#terapia" class="btn btn-nav" id="nav-terapia">Iniciar Terapia</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" id="inicio" aria-label="Sección principal">
+      <div class="hero-overlay"></div>
+      <img src="https://fundacioncreandopasosdeamor.org/imgs/hero_child_horse_1780679666799.png"
+        alt="Niño acariciando suavemente un caballo marrón en un campo verde" class="hero-bg" />
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>Equinoterapia y Acompañamiento Familiar</span>
+        </div>
+        <h1 class="hero-title">Fundación Creando<br />Pasos de Amor A.C.</h1>
+        <p class="hero-description">
+          Fundación Creando Pasos de Amor A.C., a través del Centro Terapéutico La Joya,
+          brinda servicios de equinoterapia y acompañamiento familiar para favorecer el
+          desarrollo físico, cognitivo, emocional y social de niños, niñas, adolescentes
+          y adultos en un entorno seguro, inclusivo y respetuoso.
+        </p>
+        <p class="hero-phrase">
+          Creando pasos de amor, inclusión y esperanza a través de la equinoterapia.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-primary" id="hero-cta-primary">Solicitar Información</a>
+          <a href="#beneficios" class="btn btn-secondary" id="hero-cta-secondary">Descubre la Equinoterapia</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ======================== BENEFICIOS ======================== -->
+    <section class="beneficios" id="beneficios" aria-labelledby="beneficios-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">¿Por qué confiar en nosotros?</span>
+          <h2 id="beneficios-title" class="section-title">Beneficios de la Equinoterapia</h2>
+          <p class="section-subtitle">La equinoterapia es una intervención complementaria que favorece el desarrollo
+            físico, cognitivo, emocional y social de las personas, promoviendo su bienestar integral y fortaleciendo la
+            participación familiar.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card" data-aos="fade-up">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <circle cx="32" cy="32" r="30" stroke="#2a7abf" stroke-width="2" fill="#e8f4fd" />
+                <path d="M32 20 C28 16 20 18 20 26 C20 34 32 42 32 42 C32 42 44 34 44 26 C44 18 36 16 32 20Z"
+                  fill="#2a7abf" opacity="0.8" />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Bienestar Emocional</h3>
+            <p class="benefit-desc">La interacción con los caballos favorece la confianza, la autoestima y la
+              regulación emocional, fortaleciendo vínculos positivos y promoviendo el bienestar integral de los
+              beneficiarios.</p>
+          </div>
+
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <circle cx="32" cy="32" r="30" stroke="#2a7abf" stroke-width="2" fill="#e8f4fd" />
+                <path d="M24 44 L24 28 C24 24 28 20 32 20 C36 20 40 24 40 28 L40 44" stroke="#2a7abf" stroke-width="2.5"
+                  stroke-linecap="round" />
+                <circle cx="32" cy="16" r="4" fill="#2a7abf" />
+                <path d="M20 36 L44 36" stroke="#2a7abf" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Desarrollo Físico</h3>
+            <p class="benefit-desc">El movimiento tridimensional del caballo favorece el equilibrio, la coordinación, la
+              postura, el tono muscular y el control corporal. Estos estímulos contribuyen al fortalecimiento de
+              habilidades motoras y al desarrollo físico de los beneficiarios.</p>
+          </div>
+
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <circle cx="32" cy="32" r="30" stroke="#2a7abf" stroke-width="2" fill="#e8f4fd" />
+                <circle cx="32" cy="28" r="7" stroke="#2a7abf" stroke-width="2.5" fill="none" />
+                <path d="M18 48 C18 40 24 36 32 36 C40 36 46 40 46 48" stroke="#2a7abf" stroke-width="2.5"
+                  stroke-linecap="round" fill="none" />
+                <path d="M26 26 L30 30 L38 22" stroke="#2a7abf" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Habilidades Sociales</h3>
+            <p class="benefit-desc">La equinoterapia promueve la comunicación, la convivencia y el desarrollo de
+              habilidades sociales. A través de la interacción con terapeutas, familiares y caballos, los beneficiarios
+              fortalecen la confianza, la cooperación y la participación activa en su entorno.
+            </p>
+          </div>
+
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <circle cx="32" cy="32" r="30" stroke="#2a7abf" stroke-width="2" fill="#e8f4fd" />
+                <path d="M20 38 C20 30 26 24 32 22 C38 24 44 30 44 38" stroke="#2a7abf" stroke-width="2.5"
+                  stroke-linecap="round" fill="none" />
+                <path d="M28 38 L28 32 M32 38 L32 28 M36 38 L36 32" stroke="#2a7abf" stroke-width="2"
+                  stroke-linecap="round" />
+                <circle cx="32" cy="20" r="3" fill="#2a7abf" />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Atención Personalizada</h3>
+            <p class="benefit-desc">Diseñamos planes de trabajo individualizados de acuerdo con las necesidades y
+              objetivos de cada beneficiario, brindando un acompañamiento cercano y adaptado a cada proceso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== NOSOTROS ======================== -->
+    <section class="nosotros" id="nosotros" aria-labelledby="nosotros-title">
+      <div class="container nosotros-inner">
+        <div class="nosotros-text">
+          <span class="section-tag">Nuestra Historia</span>
+          <h2 id="nosotros-title" class="section-title">¿Quiénes Somos?</h2>
+          <p>
+            <strong>Fundación Creando Pasos de Amor A.C.</strong> es una organización comprometida con el bienestar y
+            desarrollo integral de niños, niñas, adolescentes y adultos que requieren apoyo en su desarrollo físico,
+            cognitivo, emocional y social.
+          </p>
+          <p>
+            A través del <strong>Centro Terapéutico La Joya</strong> desarrollamos programas de equinoterapia y
+            acompañamiento familiar, brindando un espacio seguro, inclusivo y respetuoso donde cada beneficiario puede
+            fortalecer sus habilidades de acuerdo con sus necesidades individuales.
+          </p>
+          <p>
+            Creemos en el valor de la interacción con el caballo como una herramienta que favorece el aprendizaje, la
+            confianza, la comunicación y el bienestar integral. Asimismo, reconocemos la importancia de la familia como
+            parte fundamental de cada proceso, promoviendo espacios de orientación, apoyo y participación activa.
+          </p>
+          <p>
+            Nuestro trabajo se fundamenta en el respeto, la inclusión, la empatía y el compromiso con las personas
+            beneficiarias y sus familias.
+          </p>
+          <a href="#contacto" class="btn btn-primary" id="nosotros-cta">Agenda una Consulta</a>
+        </div>
+        <div class="nosotros-stats">
+          <div class="stat-card">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Pacientes atendidos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Terapeutas certificados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Caballos terapéuticos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== LEGADO ======================== -->
+    <section class="legado" id="legado" aria-labelledby="legado-title">
+      <div class="container">
+        <div class="legado-inner">
+          <div class="legado-icon" aria-hidden="true">🤍</div>
+          <div class="legado-content">
+            <span class="section-tag">Nuestro Legado</span>
+            <h2 id="legado-title" class="section-title">Creando Pasos de Amor</h2>
+            <p>
+              <strong>Fundación Creando Pasos de Amor A.C.</strong> nace inspirada en el legado de
+              <strong>Christopher Pedroza Abarca</strong>, cuyos valores continúan guiando nuestro compromiso
+              con el servicio, la inclusión y el acompañamiento de las personas y familias que más lo necesitan.
+            </p>
+            <p>
+              El nombre <em>"Creando Pasos de Amor"</em> representa la convicción de que cada paso dado con
+              empatía, respeto y solidaridad tiene el poder de transformar vidas y construir un mejor futuro
+              para nuestra comunidad.
+            </p>
+            <p>
+              A través del <strong>Centro Terapéutico La Joya</strong> trabajamos diariamente para honrar ese
+              legado mediante acciones que promueven el bienestar, la inclusión y el desarrollo integral de
+              las personas beneficiarias y sus familias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== TESTIMONIOS ======================== -->
+    <section class="testimonios" id="testimonios" aria-labelledby="testimonios-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Historias de Éxito</span>
+          <h2 id="testimonios-title" class="section-title">Testimonios que nos Inspiran</h2>
+        </div>
+
+        <div class="testimonios-grid">
+          <div class="testimonial-video-card">
+            <div class="video-thumb" id="video-thumb" role="button" tabindex="0" aria-label="Ver testimonio en video">
+              <img src="https://fundacioncreandopasosdeamor.org/imgs/testimonial_video_thumb_1780679751359.png"
+                alt="Niño en sesión de terapia ecuestre con terapeuta guiando al caballo" />
+              <div class="play-btn" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+              </div>
+              <div class="video-controls">
+                <span class="video-time">00:00</span>
+                <div class="video-progress">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="video-icons">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="2">
+                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials-list">
+            <div class="testimonial-card active" id="testimonial-1">
+              <div class="stars" aria-label="5 estrellas">
+                ★★★★★
+              </div>
+              <blockquote>
+                "Para mí la equinoterapia ha sido nuestra gran esperanza para nuestro pequeño Matías,
+                es la terapia más efectiva que ha tenido mi hijo, es con la que más avances hemos visto,
+                sin duda la equinoterapia y ustedes como equipo nos han regresado la fe y la esperanza
+                de verlo caminar 🩷🥺🤲🏽"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">IN</div>
+                <div>
+                  <strong>Ingrid Guadalupe Nuñez</strong>
+                  <span>Mamá de Matías</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" id="testimonial-2">
+              <div class="stars" aria-label="5 estrellas">
+                ★★★★★
+              </div>
+              <blockquote>
+                "La equinoterapia nos ha ayudado a mejorar la atención, equilibrio, postura y a reducir
+                el estrés en mi pequeña. Estamos muy contentos ya que también genera un vínculo con el
+                caballo al aire libre."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">GX</div>
+                <div>
+                  <strong>Gaby</strong>
+                  <span>Mamá de Xime</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" id="testimonial-3">
+              <div class="stars" aria-label="5 estrellas">
+                ★★★★★
+              </div>
+              <blockquote>
+                "La equinoterapia ha significado avance, autonomía, confianza y seguridad para mi hijo
+                y por supuesto para todos como familia estamos muy contentos con todos los logros
+                obtenidos ❤️"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">LJ</div>
+                <div>
+                  <strong>Lorena</strong>
+                  <span>Mamá de Julián</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" id="testimonial-4">
+              <div class="stars" aria-label="5 estrellas">
+                ★★★★★
+              </div>
+              <blockquote>
+                "¡La equinoterapia en la Joya ha sido una experiencia maravillosa! Llevé a mi hija por
+                problemas de lenguaje y desarrollo motor, y los cambios fueron sorprendentes desde el primer
+                mes: empezó a hablar a la perfección y mejoró notablemente su fuerza, equilibrio y
+                coordinación. Además, el acompañamiento profesional fue clave para el diagnóstico de TDA.
+                La equinoterapia le favoreció bastante para mejorar su concentración y atención. Además
+                están inmersos muchos otros aprendizajes, como el amor, cuidado y respeto por los animales,
+                la responsabilidad, el trabajo colaborativo, entre otros. El equipo de La Joya es sumamente
+                atento, amable y profesional; nos brindaron una atención de primera a toda la familia.
+                ¡Totalmente recomendados! 💕"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">MA</div>
+                <div>
+                  <strong>Mónica</strong>
+                  <span>Mamá de Angie</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-dots" role="tablist" aria-label="Seleccionar testimonio">
+              <button class="dot active" id="dot-1" onclick="showTestimonial(1)" role="tab" aria-selected="true"
+                aria-controls="testimonial-1"></button>
+              <button class="dot" id="dot-2" onclick="showTestimonial(2)" role="tab" aria-selected="false"
+                aria-controls="testimonial-2"></button>
+              <button class="dot" id="dot-3" onclick="showTestimonial(3)" role="tab" aria-selected="false"
+                aria-controls="testimonial-3"></button>
+              <button class="dot" id="dot-4" onclick="showTestimonial(4)" role="tab" aria-selected="false"
+                aria-controls="testimonial-4"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== GALERÍA ======================== -->
+    <section class="galeria" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Nuestras Sesiones</span>
+          <h2 id="galeria-title" class="section-title">Galería</h2>
+          <p class="section-subtitle">Momentos únicos donde la magia de la terapia ecuestre cobra vida.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" tabindex="0" id="gallery-item-1">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_1_hand_horse_1780679677032.png"
+              alt="Mano de niño acariciando suavemente el hocico del caballo" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" id="gallery-item-2">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_2_boy_horse_1780679688714.png"
+              alt="Niño y caballo frente a frente, nariz con nariz" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" id="gallery-item-3">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_3_grooming_1780679699921.png"
+              alt="Niño cepillando y cuidando a un caballo marrón" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" id="gallery-item-4">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_4_riding_1780679718298.png"
+              alt="Niño con casco montando caballo en ejercicios de equilibrio" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" id="gallery-item-5">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_5_field_1780679729164.png"
+              alt="Grupo de niños con caballo en campo abierto" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" id="gallery-item-6">
+            <img src="https://fundacioncreandopasosdeamor.org/imgs/gallery_6_connection_1780679739896.png"
+              alt="Niño recostando su cabeza sobre el cuello del caballo en un momento de paz" loading="lazy" />
+            <div class="gallery-caption">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONTACTO ======================== -->
+    <section class="contacto" id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Estamos Aquí para Ti</span>
+          <h2 id="contacto-title" class="section-title">Contacto</h2>
+          <p class="section-subtitle">¿Tienes preguntas? ¿Deseas agendar una sesión? Escríbenos y nos pondremos en
+            contacto contigo a la brevedad.</p>
+        </div>
+
+        <div class="contacto-grid">
+          <!-- FORMULARIO -->
+          <div class="contact-form-wrapper">
+            <h3 class="form-title">Envíanos un Mensaje</h3>
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nombre">Nombre *</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required
+                    autocomplete="given-name" />
+                  <span class="field-error" id="nombre-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo Electrónico *</label>
+                  <input type="email" id="email" name="email" placeholder="tu@correo.com" required
+                    autocomplete="email" />
+                  <span class="field-error" id="email-error" role="alert"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+52 (000) 000-0000" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto">
+                  <option value="">Selecciona un asunto...</option>
+                  <option value="consulta-general">Consulta general</option>
+                  <option value="agendar-sesion">Agendar sesión de terapia</option>
+                  <option value="informacion-programas">Información sobre programas</option>
+                  <option value="voluntariado">Voluntariado</option>
+                  <option value="donaciones">Donaciones</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos cómo podemos ayudarte..." rows="5"
+                  required></textarea>
+                <span class="field-error" id="mensaje-error" role="alert"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                <span class="btn-text">Enviar Mensaje</span>
+                <span class="btn-loader" aria-hidden="true" style="display:none;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                  </svg>
+                </span>
+              </button>
+              <div id="formMsg" class="form-message" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+
+          <!-- INFO -->
+          <div class="contact-info-wrapper">
+            <h3 class="info-title">Información</h3>
+            <ul class="info-list">
+              <li>
+                <div class="info-icon">📍</div>
+                <div>
+                  <strong>Ubicación</strong>
+                  <span>Centro Terapéutico La Joya</span>
+                </div>
+              </li>
+              <li>
+                <div class="info-icon">🏛️</div>
+                <div>
+                  <strong>Fundación</strong>
+                  <span>Fundación Creando Pasos de Amor A.C.</span>
+                </div>
+              </li>
+              <li>
+                <div class="info-icon">📅</div>
+                <div>
+                  <strong>Horario de Atención</strong>
+                  <span>Lunes a Sábado: 8:00 AM – 6:00 PM</span>
+                </div>
+              </li>
+              <li>
+                <div class="info-icon">📞</div>
+                <div>
+                  <strong>Teléfono</strong>
+                  <span>777 206 8187</span>
+                </div>
+              </li>
+            </ul>
+            <div class="social-links">
+              <p class="social-title">Síguenos en redes sociales</p>
+              <a href="https://web.facebook.com/CentroTerapeuticoLaJoya" target="_blank" rel="noopener noreferrer"
+                class="social-btn facebook" id="contact-facebook-btn" aria-label="Visítanos en Facebook">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+                Centro Terapéutico La Joya
+              </a>
+            </div>
+            <div class="contact-map-placeholder">
+              <div class="map-icon">🗺️</div>
+              <p>¿Necesitas cómo llegar?</p>
+              <a href="https://web.facebook.com/CentroTerapeuticoLaJoya" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline" id="directions-btn">Ver en Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo" aria-label="Volver al inicio">
+          <img src="https://fundacioncreandopasosdeamor.org/imgs/Logo.png"
+            alt="Logo Fundación Creando Pasos de Amor A.C." class="logo-img logo-img-footer" />
+        </a>
+        <p class="footer-tagline">Transformando vidas a través del amor y los caballos.</p>
+        <a href="https://web.facebook.com/CentroTerapeuticoLaJoya" target="_blank" rel="noopener noreferrer"
+          class="footer-fb" id="footer-facebook-link" aria-label="Facebook de Centro Terapéutico La Joya">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+          </svg>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <a href="#contacto">Hipoterapia</a>
+          <a href="#contacto">Equinoterapia</a>
+          <a href="#contacto">Terapia Ocupacional</a>
+          <a href="#contacto">Psicoterapia Ecuestre</a>
+        </div>
+        <div class="footer-col">
+          <h4>Comunidad</h4>
+          <a href="https://web.facebook.com/CentroTerapeuticoLaJoya" target="_blank"
+            rel="noopener noreferrer">Facebook</a>
+          <a href="#contacto">Voluntariado</a>
+          <a href="#contacto">Donaciones</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Fundación Creando Pasos de Amor A.C. Todos los derechos reservados.</p>
+      <p class="footer-note">
+        Las imágenes utilizadas en este sitio web son de carácter ilustrativo. © Centro Terapéutico La Joya.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galería de imágenes ampliada"
+    style="display:none;">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Imagen anterior">&#8249;</button>
+    <div class="lightbox-img-wrapper">
+      <img src="" alt="" id="lightboxImg" />
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Imagen siguiente">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
